@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style type:"text/css">/*  STYLESHEET FOR COMPLILATION OF GUIDANCE 2010-2016 
+    GTFERNANDEZM@GMAIL.COM 2014
+    */
+
+
+              /* 
+              Color Scheme { 
+              * Use ctrl+option+f for changing colors throughout whole stylesheet *
+              Title color:  rgb(51,47,69);
+              Sections: rgb(1, 87, 112);
+              Salutation, Fin attributions and Numbers: rgb(42, 135, 130); 
+              }
+              */
+
+/*****************************/
+/********* STRUCTURE *********/
+/*****************************/
+
+@page {
+    margin-top: .75in;
+    margin-bottom: .75in;
+    size: auto;
+}
+
+
+body {
+    font-family: Avenir,serif;
+    font-size: 16px;
+}
+
+article {
+    counter-reset: paragraph;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+section.sub { /* Any paragraphs that follow an h3 tag */
+    margin-left: 2.5em;
+}
+
+/*****************************/
+/******** PARAGRAPHS *********/
+/*****************************/
+
+p {
+    counter-increment: paragraph 1;
+    font-family: Adobe Caslon Pro,serif;
+    font-size: 1em;
+}
+p.fin { 
+    /* The closing and signature of a letter */
+    counter-increment: paragraph 0;
+    text-align: right;
+    text-indent: 0;
+    color: rgb(42,135,130);
+}
+
+blockquote {
+    margin-right: 2.5em;
+    margin-left: 2.5em;
+}
+
+blockquote p {
+    text-indent: 0;
+    font-style: italic;
+}
+
+p.sal { 
+    /* The recipient(s) and salutation */
+    counter-increment: paragraph 0;
+    text-indent: 0;
+    color: rgb(42,135,130);
+}
+
+p.attrib { 
+    /* Attribution within a blockquote */
+    counter-increment: paragraph 0;
+    text-align: right;
+    font-style: normal;
+    color: rgb(42,135,130);
+}
+
+p.brk { 
+    /* Asterisks for breaking sections without new headers */
+    counter-increment: paragraph 0;
+    margin-bottom: -.5em;
+    text-align: center;
+    text-indent: 0;
+    line-height: 1em;
+    color: rgb(42,135,130);
+}
+
+/*****************************/
+/********** COUNTERS *********/
+/*****************************/
+
+p:before {
+    content: counter(paragraph);
+    margin-right: 1em;
+    margin-left: 1em;
+    font-family: Avenir,serif;
+    font-style: italic;
+    color: rgb(42,135,130);
+}
+
+p.sal:before {
+    display: none;
+}
+
+p.attrib:before {
+    display: none;
+}
+
+p.brk:before {
+    display: none;
+}
+
+p.fin:before {
+    display: none;
+}
+
+/*****************************/
+/********** HEADERS **********/
+/*****************************/
+
+section.head { 
+    /* Contains the h1 of each letter and the date or subtitle */
+    margin-bottom: 2.5em;
+    text-align: center;
+    font-family: Adobe Caslon Pro,serif;
+    font-size: 1.5em;
+    font-style: italic;
+    page-break-before: always;
+    color: rgb(1,87,112);
+}
+
+h1 {
+    margin-bottom: .25em;
+    font-family: Palatino Linotype,serif;
+    font-size: 2em line-height;
+    font-style: normal;
+    font-variant: small-caps;
+    color: rgb(51,47,69);
+}
+
+h2 {
+    margin-bottom: -.25em;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(1,87,112);
+}
+
+h3 { 
+    /* All paragraphs under an h3 need to have section.sub applied to them */
+    margin-bottom: -.25em;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(1,87,112);
+    }</style>
+    <title>
+      Possible Majors in Social Science
+    </title>
+  </head>
+  <body>
+  <article>
+  <h1>Undergrad</h1>
+  <h2>Anthropology BA</h2>
+  <p>Anthropology is the study of human beings and cultures throughout the world during the present and past. Said another way, it is the study of "who we are, and how we came to be that way." Anthropology is partly a natural science, partly a social science, and partly a humanistic study. Anthropology majors compare and contrast the biological, social, and cultural similarities and differences of humans and their societies across the globe and develop a sophisticated understanding of the biological unity of our species. </p>
+
+    <p>Students who major in the field are expected to take courses in the four subfields of anthropology. Students planning a professional career in anthropology generally specialize in one of the subfields: biological anthropology (the evolutionary history of human and nonhuman primates), archaeology (the study of prehistoric and historic societies through their material culture), sociocultural anthropology (the study of the behavior of recent peoples in settings that range from unindustrialized societies to modern urban centers), and linguistic anthropology (the comparative study of languages and communication). The Anthropology Department website (http://anthropology.umn.edu/undergrad/requirements.html) offers several examples of course sequences designed to provide training in particular subfields.</p>
+  
+  <p>There are a variety of opportunities for graduates with degrees in anthropology. While some go on to graduate school in order to obtain a position in a university, most graduates find non-academic jobs in the private and public sectors. Private industry consulting, environmental firms, product development and marketing firms, as well as the nonprofit sector all employ anthropologists because of the unique observational and critical thinking skills they possess. Governmental agencies at the federal and state levels seek anthropologists for various positions. Biological anthropologists find employment as forensic scientists working for law enforcement. Archaeologists find jobs in cultural resource management (CRM) firms whose services are contracted by construction companies to ensure compliance with legislation pertaining to archaeological and historical preservation. An anthropology major is also excellent preparation for professional schools in medicine, public health, nursing, and law. </p>
+
+  <p>The U.S. Bureau of Labor Statistics' data (http://www.bls.gov/oco/ocos315.htm) indicate that anthropologist and archaeologist jobs are growing at a faster rate (26 percent by 2018) than other social sciences. Based on the Wall Street Journal's interactive graphic (http://graphicsweb.wsj.com/documents/NILF1111/#term=), the unemployment percentage for graduates with an anthropology major is also lower than many more popular majors, including psychology, architecture, sociology, and journalism. More importantly, an anthropology major offers a holistic education that, regardless of the job attained after graduation, provides a perspective on humanity that inspires a lifetime of engagement with the issues of importance to our globalized society.</p>
+  <h2>Sociology BS</h2>
+  <p>Sociology examines stability and change in social life by addressing the underlying patterns of social relations in formal organizations, in legal institutions, and in the family, economy, and political arena./p><p>
+
+Coursework focuses on the criminal justice system and criminal behavior, mental health, families and close relationships, education, urban and rural communities, politics and policy formation, social movements and social change, diverse racial and ethnic groups, and social psychology. Faculty interests in the comparative study of social relations and institutions in various countries add an international emphasis to these areas of study. All sociology courses emphasize the skills of social inquiry necessary for analyzing patterns of social relationships./p><p>
+
+The Sociology B.S. program is for students interested in developing a rigorous mathematical concentration in research methodologies. This option builds on the course requirements for the Sociology B.A. program by featuring 12-16 additional credits of upper-division coursework in one of four clusters: (1) Organizations, Business, or Non-Profits, (2) Health Care and Careers, (3) Policy Analysis, or (4) Quantitative Emphasis.   </p><p>
+
+For more information, visit the sociology website for undergraduates at http://www.soc.umn.edu/undergrad/.</p>
+  
+  <h2>Sociology BA</h2>
+  <p>Sociology examines stability and change in social life by addressing the underlying patterns of social relations in formal organizations, in legal institutions, and in the family, economy, and political arena.</p><p>
+
+  Coursework focuses on the criminal justice system and criminal behavior, mental health, families and close relationships, education, urban and rural communities, politics and policy formation, social movements and social change, diverse racial and ethnic groups, and social psychology. Faculty interests in the comparative study of social relations and institutions in various countries add an international emphasis to these areas of study. All sociology courses emphasize the skills of social inquiry necessary for analyzing patterns of social relationships. </p><p>
+
+For more information, visit the sociology website for undergraduates at http://www.soc.umn.edu/undergrad/.</p>
+  <h2>Urban Studies BS</h2>
+  <p>This cross-disciplinary major involves urban studies coursework, fieldwork experiences, internships, and coursework in disciplines that offer useful perspectives on contemporary urban and postindustrial society. </p><p>
+
+The program focuses on the conceptual and analytical frameworks and specialized skills needed for professions focused on urban change or development. Students completing the program work in public agencies or private business or pursue graduate study in urban planning, law, social welfare, public affairs, or the social and environmental sciences. </p><p>
+
+Students are encouraged to incorporate field study into the major or minor. Options include urban studies programs sponsored by the Higher Education Consortium for Urban Affairs (HECUA) in South America, Norway, and Minneapolis-St. Paul.</p>
+  <h2>Political Science BA</h2>
+  <p>Political scientists study topics, such as the exercise of power and influence; sources and resolution of conflicts; the relation of politics to the economy, culture, and other aspects of society; the adoption and implementation of public policies; and the development of political systems. These topics are studied at all levels, from local communities to the global community.</p>
+
+  <p>The scope of the discipline is reflected in the main areas of specialization that make up the undergraduate curriculum: political theory, comparative government and politics, international relations, and American governmental systems and processes. In addition, undergraduates may choose from several optional concentrations: business and politics, campaigns and elections, citizenship and civic action, global politics, law and politics, democratization and development, political psychology, beliefs, and behavior, and public affairs.</p>
+  <h2>Linguistics BA</h2>
+  <p>Linguistics is the scientific study of human language. Courses explore the principles governing the structure of natural languages, how languages are acquired by children and adults, the role of language in human cognition and social interaction, and how languages change over time.</p>
+  <h2>Geography BA</h2>
+  <p>The geography major offers integrated study of a globalized world, as made by human and non-human forces alike. The major synthesizes approaches in the humanities and the social, biophysical, and information sciences to study social, political, economic, and ecological processes and especially the role of space, place, and geographic networks in shaping them. Geography attempts to interpret how these phenomena are perceived and what meanings they hold. Geographers offer insight into pressing challenges of the day, from climate change and social-environmental justice, to the uneven effects of globalization and urban transformation, to the skillful and responsible use of geographic information.</p>
+
+    <p>Depending on their specific interests, geographers employ one or more of a variety of research techniques, including field observation, legal and archival analysis, participant observation, interviewing, textual analysis, ethnography, mapping, and spatial statistics and modeling. </p>
+
+  <p>Many geographers are interested in the intersections of science, technology, and information, such as the impact of geographic information science (GISci) on decision-making. </p>
+
+  <p>Geography majors have an opportunity to specialize in one of several study tracks, or sub-plans, offered by the department. They may also craft a course of individualized study. The sub-plans include environmental geography, geographic information science, globalization and uneven development, the urban world, and environment and society. Descriptions can be found under sub-plan Requirements.</p>
+
+  <p>There are a variety of opportunities for graduates having degrees in geography. Governmental agencies of the federal, state, regional, and local levels of government seek geographers for city and regional planning, park service, law enforcement, and transportation department positions. Private industry consulting, environmental and marketing firms, and local, national and transnational organizations, NGO's, and the nonprofit sector also seek geographic skills. Many geography undergraduate majors obtain careers in education and many go on to graduate school. </p>
+  <h2>Geography BS</h2>
+  <p>Geography is an academic and practical field that studies the manner in which man-made places and natural systems interact and change. Geographers study these interactions at all scales: neighborhoods and cities, regions and nations, single or multiple biological systems, and even the world as a whole. Geography attempts to explain not only these interactions and changes, but in many instances how they are perceived and what meanings they hold.</p>
+
+    <p>Depending on their specific interests, geographers will employ one or more of a variety of methods and techniques: fieldwork, mapping, conventional narrative, ethnography, spatial statistics and modeling, and textual analysis. Many geographers are also interested in the intersections of science, technology, and information, such as the impact of geographic information systems (GIS) on decision making. Geography's integrative perspective on regional and global change provides students with unparalleled understanding of today's complex world.</p>
+
+  <p>The B.S. offers a solid foundation in the science of geography in either the environmental systems or geographic information science track.</p>
+  <h2>Cultural Studies and Comparative Literature BA</h2>
+  <p>Courses in the Department of Cultural Studies and Comparative Literature (CSCL) pursue questions and ways of knowing that cross traditional disciplinary boundaries. Students study culture as a set of complex connections and interrelations: between texts and everyday life, ideas and the material world, discourse and power.</p>
+
+    <[>The CSCL major strives for a broad, international scope, ranging widely across history and geography. The central focus is on the cultural mechanisms through which a society's ways of knowing, value systems, and individual and collective identities are generated, disseminated, challenged, and reinvented. The goal of the program is to produce critical and self-critical readers prepared to actively participate in the intellectual conversations and social struggles that shape global culture in our time.</p>
+  <h2>Communication Studies BA</h2>
+  <p>This program examines human communication using humanistic and social scientific methods. Fields of study include speech writing, rhetorical criticism, ethics, interpersonal, small group, organizational, intercultural, and electronic (broadcasting, cable, satellite, Internet) forms of communication. Students intending to declare a major must meet with a communication studies adviser. Students are strongly encouraged to declare their major during the first or second year. Students intending to declare a communication studies major must first meet with an adviser in 274 Ford Hall. </p>
+
+  <h2>American Studies BA</h2>
+    <p>American studies is an interdisciplinary and comparative study of the United States as the outcome of migration, labor accumulation, land acquisition, cultural dissemination, the implantation of U.S. laws and policies, and identity formations around gender, sexuality, and race.</p>
+    <p>As an interdisciplinary field, American studies brings the social sciences and humanities together.  Students and faculty interact in a variety of academic areas, including literature, history, sociology, anthropology, geography, cultural studies, art history, urban studies, political science, and women's studies.</p>
+    <p>In addition, the Department of American Studies includes a minor in Asian American studies and cooperates with the Departments of African-American and African Studies, American Indian Studies, Chicano Studies, and Indian Studies, which makes it possible for students to concentrate their studies in one of those cultural areas.</p>
+
+
+
+
+  
+  </article>
+</body>
+</html>
