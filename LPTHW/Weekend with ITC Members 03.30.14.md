@@ -1,7 +1,0 @@
-+ What are the characteristics of the firsl milestone?
-     * Can be compared to the organic development of a plant, a seed can only grow if the right characterisitcs are present in soil and environment. Some seeds will take longer to produce leaves and branches, others are very fast. It depends on the soil and the seed. How do we know if a cluster is alive? Would it continue to grow naturally? What is the next stage after a seedling? What are the characteristics of a sapling? More roots, more leaves, bigger stem, firmly established. How do we know when firm establishment has happened? What demonstrates a sapling in a cluster?
-     * Cycle, expansion, etc are words we wouldnt hear at the beggining of a process of growth, those are signs of developed comprehension. They make clear what the next challenge is.
-     * The friends don't not want to grow, they are being carafeul not to drop strengths just for growth. They need consultation and support to learn how to respond to oppourtunities.
-     * We have to learn to turn obstacles into stepping stones, the friends require constant encouragement, love, listening, assistance to be agile.el
-+ What are the chracteristics of the second milestone?
-+ How can the nascent capacities be demonstrated/observed
