@@ -2,7 +2,7 @@
 print True and False
 
 # del: deletes an item from a list using it's index
-list1 = [1,2,3,4]
+list1 = [1, 2, 3, 4]
 print list1
 del list1[0]
 print list1
@@ -27,7 +27,8 @@ elif hi == 5:
 else:
     print "else"
 
-# global: allows a variable that is defined and altered in one function to be used and altered in another
+# global: allows a variable that is defined and altered in one function to be
+# used and altered in another
 # or: boolean operator, returns true as long as one true is present
 print True or False
 
@@ -60,7 +61,29 @@ print "BROKEN"
     import module.example    """
 # print: returns thetext enclosed in ""
 print "Printing is so fun"
-# class
+
+# class: a set of inheritable methods and varialbes
+class Bird:
+    def __init__(self, kind, call):
+        self.call = call
+        self.kind = kind
+    def do_call(self):
+        print "A %s goes %s" % (self.kind, self.call)
+
+class Parrot(Bird):
+    def __init__(self):
+        Bird.__init__(self, "parrot", "\"Kaw!\"")
+
+class Cuckoo(Bird):
+    def __init__(self):
+        Bird.__init__(self, "cuckoo", "\"Cuckoo!\"")
+
+if __name__ == "__main__":
+    parrot = Parrot()
+    cuckoo = Cuckoo()
+
+    parrot.do_call()
+    cuckoo.do_call()
 # exec
 # in
 # raise
@@ -114,16 +137,24 @@ print "Lists look like this:"
 print "list1=[1,2,3,4,5]"
 print "list2=[\"string1\", \"string2\", \"string57\"]"
 print 'Just remember, items in lists are accessed using their index, not their ordinal number! This is critical.'
-# \\
-# \'
-# \"
-# \a
-# \b
-# \f
-# \n
-# \r
-# \t
+
+# \\ Backslash
+print "\\ Hello"
+# \' Single quotes
+print "\'Hello\'"
+# \" Double quote
+print "\'Hello\'"
+# \a Ascii bell (warning flash)
+print "Hello, bell.\a"
+# \b Ascii backspace
+print "Hello\b\b"
+# \f Ascii formfee
+# \n Ascii linefee
+# \r Ascii Carriage return
+# \t Horizontal tab
+print "\t Hello"
 # \v
+print "\v Hello"
 # %d
 # %i
 # %o

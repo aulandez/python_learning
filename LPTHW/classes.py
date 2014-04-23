@@ -1,0 +1,3 @@
+# understanding classes
+
+class Bird:    
